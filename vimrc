@@ -6,3 +6,7 @@ set nobackup
 set nowritebackup
 set ruler
 set number
+
+" Tab settings
+set expandtab
+set tabstop=2
