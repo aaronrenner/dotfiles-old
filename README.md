@@ -1,13 +1,13 @@
 Aaron Renner's Dot Files
 ========================
 
-These are the files I use in my development environment. This is definitely a work in progress
+These are the files I use in my development environment. This is definitely a work in progress.
 
 Installation Instructions
 -------------------------
 
-   cd dotfiles
-   Rake install
+    cd dotfiles
+    Rake install
 
 Credits
 -------
