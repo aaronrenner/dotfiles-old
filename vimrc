@@ -2,6 +2,11 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+call pathogen#infect()
+
+syntax on
+filetype plugin indent on
+
 set nobackup
 set nowritebackup
 set ruler
