@@ -2,7 +2,9 @@ require 'rake'
 
 desc 'install dot files into home directory'
 task :install do
-  link_file "vimrc"
+  %w(vimrc vim).each do | file |
+    link_file file 
+  end
 end
 
 
@@ -12,6 +14,6 @@ def link_file(file)
 
   unless File.exists?(target_file)
     puts "linking #{target_file}"
-    system %Q{ln -s "#{target_file}" "#{source_file}"}
+    system %Q{ln -s "#{source_file}" "#{target_file}"}
   end
 end
