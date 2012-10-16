@@ -7,7 +7,7 @@ Installation Instructions
 -------------------------
 
     cd dotfiles
-    Rake install
+    rake install
 
 Credits
 -------
