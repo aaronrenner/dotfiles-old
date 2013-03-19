@@ -17,3 +17,7 @@ set number
 set expandtab
 set tabstop=2 "Number of spaces to indent when tab is pressed
 set shiftwidth=2 "Number of spaces to indent with >>
+
+:command PP :!rake push:pages
+:command PTA :!rake push:theme_assets
+:command PA :!rake push:all
