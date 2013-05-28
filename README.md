@@ -6,6 +6,8 @@ These are the files I use in my development environment. This is definitely a wo
 Installation Instructions
 -------------------------
 
+    sudo apt-get install exuberant-ctags ack-grep
+
     cd dotfiles
     rake install
 
