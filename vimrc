@@ -18,6 +18,8 @@ set expandtab
 set tabstop=2 "Number of spaces to indent when tab is pressed
 set shiftwidth=2 "Number of spaces to indent with >>
 
+let g:ctrlp_custom_ignore = '\v[\/](ib\.xcodeproj|build)$'
+"
 "Locomotive CMS Shortcuts
 :command PP :!bundle exec rake push:pages
 :command PTA :!bundle exec rake push:theme_assets
