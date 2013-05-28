@@ -9,7 +9,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles Here
-Bundle 'kchmck/vim-coffeescript'
+Bundle 'tpope/vim-fugitive'
 
 syntax on
 filetype plugin indent on
