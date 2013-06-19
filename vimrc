@@ -40,6 +40,18 @@ set tabstop=2 "Number of spaces to indent when tab is pressed
 set shiftwidth=2 "Number of spaces to indent with >>
 
 let g:ctrlp_custom_ignore = '\v[\/](ib\.xcodeproj|build)$'
+
+let mapleader = ","
+
+" Edit another file in the same directory as the current file
+" uses expression to extract path from current file's path
+map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>s :split <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>
+
+" Remove trailing whitespace on save for ruby files.
+au BufWritePre *.rb :%s/\s\+$//e
+
 "
 "Locomotive CMS Shortcuts
 :command PP :!bundle exec rake push:pages
