@@ -58,6 +58,9 @@ map <Leader>s :w<cr>:call RunNearestSpec()<CR>
 map <Leader>l :w<cr>:call RunLastSpec()<CR>
 map <Leader>a :w<cr>:call RunAllSpecs()<CR>
 
+" Creates parent directories if needed
+map <Leader>d :!mkdir %:p:h<CR><CR>
+
 " Remove trailing whitespace on save for ruby files.
 au BufWritePre *.rb :%s/\s\+$//e
 
