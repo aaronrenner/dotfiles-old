@@ -10,8 +10,11 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles Here
+Bundle 'tpope/vim-unimpaired'
+
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-rake'
 
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
@@ -19,6 +22,7 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'tpope/vim-endwise'
 
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-commentary'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
