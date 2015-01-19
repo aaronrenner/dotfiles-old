@@ -32,6 +32,7 @@ Plugin 'tpope/vim-eunuch'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mileszs/ack.vim'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'mustache/vim-mustache-handlebars'
 
 " For running specs
 Plugin 'thoughtbot/vim-rspec'
