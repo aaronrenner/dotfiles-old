@@ -11,6 +11,14 @@ Installation Instructions
     cd dotfiles
     rake install
 
+Updating Vundle
+---------------
+
+```
+$ git submodule foreach git pull origin master
+```
+
+
 Credits
 -------
 
