@@ -92,6 +92,9 @@ map <Leader>a :w<cr>:call RunAllSpecs()<CR>
 " Creates parent directories if needed
 map <Leader>d :!mkdir -p %:p:h<CR><CR>
 
+" Toggle paste mode
+set pastetoggle=<leader>p
+
 " Run Rake db:migrate
 map <Leader>m :Rake db:migrate db:test:prepare<CR>
 
