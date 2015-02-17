@@ -32,6 +32,11 @@ Plugin 'tpope/vim-eunuch'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mileszs/ack.vim'
 Plugin 'cakebaker/scss-syntax.vim'
+
+" Project navigation
+Plugin 'tpope/vim-projectionist'
+
+" Stuff used with ember
 Plugin 'mustache/vim-mustache-handlebars'
 
 " For running specs
@@ -59,7 +64,7 @@ set shiftwidth=2 "Number of spaces to indent with >>
 let g:ctrlp_custom_ignore = '\v[\/](ib\.xcodeproj|build|tmp)$'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard']
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
-let g:ack_default_options = " --ignore-dir=log --ignore-dir=coverage --ignore-dir=tmp --ignore-file=is:tags"
+let g:ack_default_options = " --ignore-dir=log --ignore-dir=coverage --ignore-dir=tmp --ignore-dir=doc --ignore-file=is:tags"
 
 let mapleader = ","
 
